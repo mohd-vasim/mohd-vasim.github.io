@@ -1,15 +1,14 @@
-@font-face 
-    { 
-    font-family: "Adobe Clean";  
-    src: url("static/AdobeCleanRegular.otf")format("opentype"); 
-    }
+@font-face {
+    font-family: "Adobe Clean";
+    src: url("static/AdobeCleanRegular.otf")format("opentype");
+}
 
 body {
     /* font-family: 'Ubuntu', sans-serif; */
     /* font-family: 'Josefin Sans', sans-serif; */
     /* font-family: 'Fira Code', monospace; */
     /* font-family: 'Roboto Slab', serif; */
-    font-family: 'Adobe Clean'، 'Open Sans', sans-serif;
+    font-family: 'Adobe Clean' ، 'Open Sans', sans-serif;
 }
 
 #container {
@@ -30,7 +29,7 @@ body {
     background-position: center center;
     position: relative;
     background-attachment: fixed;
-    
+
 }
 
 
@@ -69,16 +68,24 @@ body {
     /* left: 10px; */
 }
 
-#quotes{
+#quotes {
     /* font-family: 'Neuton', serif; */
     font-family: 'Adobe Clean', 'Open Sans', sans-serif;
 }
 
-.icons-span{
+.icons-span {
     display: inline-block;
     /* margin-left: 2px; */
     padding-right: 15px;
 }
-.icons-img{
+
+.icons-img {
     width: 2em;
+}
+
+blockquote {
+    border-left: 4px solid #d0d0d0;
+    padding-left: 16px;
+    color: #333;
+    font-style: italic;
 }
