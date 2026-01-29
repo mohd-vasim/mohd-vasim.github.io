@@ -3,6 +3,7 @@
     src: url("static/AdobeCleanRegular.otf")format("opentype");
 }
 
+
 body {
     /* font-family: 'Ubuntu', sans-serif; */
     /* font-family: 'Josefin Sans', sans-serif; */
@@ -81,11 +82,4 @@ body {
 
 .icons-img {
     width: 2em;
-}
-
-blockquote {
-    border-left: 4px solid #d0d0d0;
-    padding-left: 16px;
-    color: #333;
-    font-style: italic;
 }
